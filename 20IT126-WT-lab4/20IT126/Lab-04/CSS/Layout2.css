@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 3vw;
+}
+
+body{
+    background-color: rgb(191 183 183 / 80%);
+}
+
+/* for whole page except*/
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.contain{
+    background-color: gray;
+    display: flex;
+    margin-bottom: 7px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* for logo and navigation */
+.logo-navi-contain{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+
+
+/* for Header/Banner */
+.header-banner{
+    height: 10vh;
+}
+
+/* for Intro Text Area  */
+.intro{
+    height: 10vh;
+}
+
+/* for box  */
+.box{
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+
+.box-contain{ 
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1{
+    width: 31vw;
+}
+
+.box2{
+    width: 31vw;
+}
+
+.box3{
+    width: 31vw;
+}
+
+/* for Footer  */
+.footer{
+    height: 8vh;
+}
