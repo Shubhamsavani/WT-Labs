@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Atleast 2 options must be selected</title>
+        <style>
+            label{
+                font-size: 1.2em;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: red;
+            }
+            button{
+                font-size: 1.2em;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: green;
+            }
+        </style>
+    </head>
+
+    <body>
+        <script defer src="main.js"></script>
+        <h3>Tell us about your hobbies do you love any from the following?</h3>
+
+        <form>
+            <label for="">Badminton</label>
+            <input id = "box1"  value="Badminton" type="checkbox" ><br>
+            
+            <label for="">Indoors Games</label>
+            <input id="box2"   value="Indoor Games" type="checkbox"><br>
+           
+            <label for="">Coding</label>
+            <input id="box3"   value="Coding" type="checkbox"><br>
+            
+            <label for="">Wandering outside</label>
+            <input id="box4"   value="Wandering Outside" type="checkbox"><br><br>
+
+            <button id='submit_btn'  type = "button" >Submit Your hobbies</button>
+        </form>
+        
+        <div id="output"></div>
+    </body>
+</html>
